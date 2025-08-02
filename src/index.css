@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Glancyr Neue";
+  src: url("/fonts/glancyrneue/GlancyrNeue-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-size: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Glancyr Neue", sans-serif;
+}
