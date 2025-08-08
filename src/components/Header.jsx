@@ -11,18 +11,15 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleMenuClick = () => {
-    
     if (window.innerWidth < 768) {
-     
       toggleSidebar();
     } else {
-     
       navigate(-1);
     }
   };
 
   return (
-    <section className="bg-[#131313] fixed z-50 lg:px-20 px-10 py-8 flex w-full h-auto justify-between">
+    <section className="bg-[#131313] fixed z-50 lg:px-20 px-10 py-8 flex w-full h-auto justify-between font-glancyr">
       <div>
         <img
           src={MenuIcon}

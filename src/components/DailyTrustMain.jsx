@@ -39,11 +39,13 @@ import Designed from "/d2dream.jpg";
 import Rites from "/last_rites.jpg";
 import Bloom from "/BCH.png";
 import Footer from "./Footer";
+import Scroll from "./Scroll";
 import { Link } from "react-router-dom";
 
 const DailyTrustMain = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-28 mb-20">
+    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-28 mb-10">
+      <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
         <div className="flex flex-col font-glancyr">
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
@@ -165,48 +167,45 @@ const DailyTrustMain = () => {
           <img src={Others8} alt="" className="w-full h-auto object-cover" />
         </div>
       </div>
-      <div className="flex flex-col w-full h-auto mb-20">
-        <h1 className="text-[20px] md:text-[26px] lg:text-[32px] lg:pl-0 pl:10 font-medium mb-5 md:mb-8 font-glancyr text-[#fff]">
+      <section className="flex flex-col w-full mb-20">
+        <h1 className="text-[20px] md:text-[26px] lg:text-[32px]font-medium mb-5 md:mb-8 font-glancyr text-[#fff]">
           Other Projects
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-auto justify-items-center gap-10">
-          <div className="md:w-[300px] w-full md:h-[277px] h-auto">
-            <Link to="/lmun">
-              <img
-                src={LMUN}
-                alt="brand logo"
-                className="w-full h-auto object-cover"
-              />
-            </Link>
-          </div>
 
-          <div className="md:w-[300px] w-full md:h-[277px] h-auto">
-            <Link to="/designedtodream">
-              <img
-                src={Designed}
-                alt="brand logo"
-                className="w-full h-auto object-cover"
-              />
-            </Link>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-auto gap-10">
+          <Link
+            to="/lmun"
+            className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
+          >
+            <img src={LMUN} alt="brand logo" className="w-full h-full" />
+          </Link>
 
-          <div className="md:w-[300px] w-full md:h-[277px] h-auto">
-            <Link to="/">
-              <img
-                src={Rites}
-                alt="brand logo"
-                className="w-full h-auto object-cover"
-              />
-            </Link>
-          </div>
+          <Link
+            to="/designedtodream"
+            className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
+          >
+            <img src={Designed} alt="brand logo" className="w-full h-full" />
+          </Link>
+
+          <Link
+            to="/photomanipulations"
+            className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
+          >
+            <img src={Rites} alt="brand logo" className="w-full h-full" />
+          </Link>
+
           <Link
             to="/bloomcreativehub"
-            className="bg-[#000] md:w-[300px] w-full h-[300px] flex justify-center items-center"
+            className="bg-[#000] flex justify-center items-center md:w-auto lg:h-auto md:h-[277px] w-full h-[500px]"
           >
-            <img src={Bloom} alt="brand logo" className="w-[188px] h-[50px]" />
+            <img
+              src={Bloom}
+              alt="brand logo"
+              className="md:w-[188px] w-auto h-[70px]"
+            />
           </Link>
         </div>
-      </div>
+      </section>
       <Footer />
     </section>
   );

@@ -11,6 +11,7 @@ import GodsDreamerGirl from "./pages/GodsDreamerGirl.jsx";
 import DailyTrust from "./pages/DailyTrust.jsx";
 import LMUN from "./pages/LMUN.jsx";
 import DesignedToDream from "./pages/DesignedToDream.jsx";
+import PhotoManipulations from "./pages/PhotoManipulations.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/dailytrust" element={<DailyTrust />} />
       <Route path="/lmun" element={<LMUN />} />
       <Route path="/designedtodream" element={<DesignedToDream />} />
+      <Route path="/photomanipulations" element={<PhotoManipulations />} />
     </Routes>
   );
 }

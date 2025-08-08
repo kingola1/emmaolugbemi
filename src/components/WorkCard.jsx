@@ -13,9 +13,9 @@ const WorkCard = ({
   className,
 }) => {
   return (
-    <section className="flex lg:flex-row flex-col w-full h-full">
+    <section className="flex lg:flex-row flex-col w-full h-full font-glancyr">
       <div
-        className={`${bg} flex lg:w-[300px] lg:h-[277px] w-full md-h-[277px] h-[400px] justify-center items-center border border-red-500`}
+        className={`${bg} flex lg:w-[300px] lg:h-[277px] w-full md-h-[277px] h-[400px] justify-center items-center`}
       >
         <img
           src={logo}

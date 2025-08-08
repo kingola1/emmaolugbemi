@@ -5,7 +5,7 @@ import PageTitle from "../components/PageTitle";
 
 const Viano = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full h-full">
+    <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Viano" />
       <Header />
 

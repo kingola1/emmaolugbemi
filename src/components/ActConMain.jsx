@@ -1,5 +1,5 @@
-// import Projects from "./OtyherProjects";
 import Footer from "./Footer";
+import Scroll from "../components/Scroll";
 import Hero from "/actcon_hero.jpg";
 import Group from "/group.jpg";
 import Tourism from "/tourism.jpg";
@@ -21,7 +21,8 @@ import { Link } from "react-router-dom";
 
 const ActConMain = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-28 mb-20">
+    <section className="flex flex-col bg-[#131313] w-full lg:pr-20 lg:justify-start not-first:justify-center px-10 mt-24 mb-10">
+      <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
         <div className="flex flex-col font-glancyr">
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
@@ -99,7 +100,7 @@ const ActConMain = () => {
         />
       </div>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full h-auto gap-10 space-y-5 mb-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 w-full h-auto gap-10 space-y-5 mb-10">
         <img src={Grid1} alt="" className="w-full h-auto object-cover" />
         <img src={Grid2} alt="" className="w-full h-auto object-cover" />
         <img src={Grid3} alt="" className="w-full h-auto object-cover" />
@@ -111,54 +112,49 @@ const ActConMain = () => {
         <img src={Grid9} alt="" className="w-full h-auto object-cover" />
       </div>
 
-      <div className="flex flex-col w-full h-auto mb-20">
-        <h1 className="text-[20px] md:text-[26px] lg:text-[32px] lg:pl-0 pl:10 font-medium mb-5 md:mb-8 font-glancyr text-[#fff]">
+      <section className="flex flex-col w-full mb-20">
+        <h1 className="text-[20px] md:text-[26px] lg:text-[32px]font-medium mb-5 md:mb-8 font-glancyr text-[#fff]">
           Other Projects
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-auto justify-items-center gap-10">
-          <div className="md:w-[300px] w-full md:h-[277px] h-auto">
-            <Link to="/specialyf">
-              <img
-                src={Special}
-                alt="brand logo"
-                className="w-full h-auto object-cover"
-              />
-            </Link>
-          </div>
 
-          <div className="bg-[#000] md:w-[300px] w-full h-[300px] flex justify-center items-center">
-            <Link to="/viano">
-              {" "}
-              <img
-                src={Viano}
-                alt="brand logo"
-                className="w-[188px] h-[177px]"
-              />
-            </Link>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-auto gap-10">
+          <Link
+            to="/SpecialYF"
+            className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
+          >
+            <img src={Special} alt="brand logo" className="w-full h-full" />
+          </Link>
 
-          <div className="md:w-[300px] w-full md:h-[277px] h-auto">
-            <Link to="/godsdreamergirl">
-              <img
-                src={DreamerGirl}
-                alt="brand logo"
-                className="w-full h-auto object-cover"
-              />
-            </Link>
-          </div>
+          <Link
+            to="/viano"
+            className="bg-[#000] flex justify-center items-center md:w-auto lg:h-auto md:h-[277px] w-full h-[500px]"
+          >
+            <img
+              src={Viano}
+              alt="brand logo"
+              className="md:w-[188px] w-auto h-[177px]"
+            />
+          </Link>
+
+          <Link
+            to="/godsdreamergirl"
+            className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
+          >
+            <img src={DreamerGirl} alt="brand logo" className="w-full h-full" />
+          </Link>
 
           <Link
             to="/dailytrust"
-            className="bg-[#fff] md:w-[300px] w-full h-[300px] flex justify-center items-center"
+            className="bg-[#fff] flex justify-center items-center md:w-auto lg:h-auto md:h-[277px] w-full h-[500px]"
           >
             <img
               src={DailyTrust}
               alt="brand logo"
-              className="w-[200px] h-auto"
+              className="md:w-[200px] w-auto h-[50px]"
             />
           </Link>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </section>

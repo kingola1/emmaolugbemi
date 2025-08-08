@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import Scroll from "./Scroll";
 import Projects from "./OtherProjects";
 import BCHIcon from "/BCH_icon.jpg";
 import BCHLogo from "/BCH.logo.jpg";
@@ -12,6 +13,7 @@ import Shirt from "/Shirts.jpg";
 const BCHMain = () => {
   return (
     <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-28 mb-10">
+      <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-5 ">
         <div className="flex flex-col font-glancyr">
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">

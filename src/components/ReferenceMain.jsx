@@ -1,5 +1,7 @@
 import RefCard from "./RefCard";
 import Footer from "./Footer";
+import Scroll from "./Scroll";
+
 const ReferenceMain = () => {
   const RefDeets = [
     {
@@ -103,7 +105,8 @@ const ReferenceMain = () => {
     },
   ];
   return (
-    <section className="justify-center lg:space-y-14 space-y-12 bg-[#131313] lg:px-14 px-10 w-full h-full lg:mt-25 mt-28 mb-20">
+    <section className="justify-center lg:space-y-14 space-y-12 bg-[#131313] lg:px-14 px-10 w-full h-full lg:mt-25 mt-28 mb-20 font-glancyr">
+      <Scroll />
       {RefDeets.map((item, index) => (
         <RefCard
           key={index}

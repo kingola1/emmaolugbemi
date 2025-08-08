@@ -1,5 +1,6 @@
 import WorkCard from "./WorkCard";
 import Footer from "../components/Footer";
+import Scroll from "../components/Scroll";
 import Act from "/ACTcon.jpg";
 import Desire from "/d2dream.jpg";
 import DailyTrust from "/dailyTrust.png";
@@ -172,7 +173,7 @@ const WorkMain = () => {
       ),
       description:
         "A compilation of my best photomanipulations, posters & flyers",
-      link: "/",
+      link: "/photomanipulations",
       label: "View Project",
       width: "lg:w-[400px] w-full",
       height: "lg:h-[277px] h-full",
@@ -180,7 +181,9 @@ const WorkMain = () => {
     },
   ];
   return (
-    <section className="bg-[#131313] mt-25 lg:px-20 px-10 mb-10">
+    <section className="bg-[#131313] mt-20 lg:px-20 px-10 mb-10 font-glancyr">
+      <Scroll />
+
       <div className="grid grid-cols-1 gap-5 mb-20">
         {Brands.map((item, index) => (
           <WorkCard

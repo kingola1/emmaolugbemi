@@ -5,7 +5,7 @@ import PageTitle from "../components/PageTitle";
 
 const LMUN = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full h-full">
+    <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Lagos Model United Nations" />
       <Header />
 
