@@ -48,8 +48,8 @@ const WorkMain = () => {
       link: "/actcon",
       label: "View Project",
       width: "lg:w-[400px] w-full",
-      height: "lg:h-[50] h-full",
-      className: "Object-fit",
+      height: "h-full",
+      className: "Object-fit", 
     },
 
     {
