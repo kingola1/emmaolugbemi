@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       <div className="flex gap-4 ">
-        <a href="">
+        <a href="mailto:kiitanolu@gmail.com">
           <img src={EmailIcon} alt="Email Icon" className="w-[32px] h-auto" />
         </a>
         <a href="https://www.linkedin.com/in/emmaolugbemi">
