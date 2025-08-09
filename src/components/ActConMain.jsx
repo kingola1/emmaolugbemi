@@ -28,10 +28,10 @@ const ActConMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             ACT Con Jos 2025
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Event Branding & Designs
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Africa Creative Tourism Plus
             <span className="px-2 text-[#FB6E02]">|</span> 2025
           </p>
@@ -41,10 +41,10 @@ const ActConMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Project Contributors
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Kachi Eze
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Emmanuel Olugbemi
           </p>
         </div>
@@ -96,7 +96,7 @@ const ActConMain = () => {
         <img
           src={Mef}
           alt="Brand logo"
-          className="w-full h-auto object-cover rounded-2xl md:rounded-3xl lg:rounded-5xl"
+          className="w-full h-auto object-cover rounded-[24px] md:rounded-4xl"
         />
       </div>
 

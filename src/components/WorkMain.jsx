@@ -17,7 +17,7 @@ const WorkMain = () => {
       logo: Bloom,
       title: "Bloom Creative Hub",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Bloom Digital Media <span className="text-[#FB6E02]">|</span> 2025
           <span className="text-[#FB6E02]">|</span> Branding & Flyer Designs
         </p>
@@ -37,7 +37,7 @@ const WorkMain = () => {
       logo: Act,
       title: "ACT Con Jos 2025",
       text: (
-        <p className="flex md:gap-6  gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           ACT+ <span className="text-[#FB6E02]">|</span> 2025{" "}
           <span className="text-[#FB6E02]">|</span> Branding & Designs
         </p>
@@ -56,7 +56,7 @@ const WorkMain = () => {
       logo: Special,
       title: "The Special Foundation",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           The Special Youth Leadership Foundation{" "}
           <span className="text-[#FB6E02]">|</span> 2024{" "}
           <span className="text-[#FB6E02]">|</span> Branding & UI/UX Designs
@@ -75,7 +75,7 @@ const WorkMain = () => {
       logo: Viano,
       title: "Viano",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Viano <span className="text-[#FB6E02]">|</span> 2024{" "}
           <span className="text-[#FB6E02]">|</span> Branding
         </p>
@@ -93,7 +93,7 @@ const WorkMain = () => {
       logo: DreamGirl,
       title: "To God's Dreamer Girl",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Reuel <span className="text-[#FB6E02]">|</span> 2024{" "}
           <span className="text-[#FB6E02]">|</span> Book Design
         </p>
@@ -111,7 +111,7 @@ const WorkMain = () => {
       logo: DailyTrust,
       title: "Daily Trust",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Media Trust <span className="text-[#FB6E02]">|</span> 2024{" "}
           <span className="text-[#FB6E02]">|</span> Design and Infographics
         </p>
@@ -129,7 +129,7 @@ const WorkMain = () => {
       logo: LagosModel,
       title: "LMUN 22/23",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Lagos Model United Nations <span className="text-[#FB6E02]">|</span>{" "}
           2023 <span className="text-[#FB6E02]">|</span> Designs
         </p>
@@ -148,7 +148,7 @@ const WorkMain = () => {
       logo: Desire,
       title: "Designed to Dream",
       text: (
-        <p className="flex md:gap-6 gap-3">
+        <p className="flex md:gap-6 gap-3 italic">
           Mary Adegunloye <span className="text-[#FB6E02]">|</span> 2023{" "}
           <span className="text-[#FB6E02]">|</span> Book Design
         </p>
@@ -166,8 +166,8 @@ const WorkMain = () => {
       logo: Rites,
       title: "Photomanipulations, Posters, & Flyers",
       text: (
-        <p className="flex md:gap-6 gap-3">
-          Multiple Client
+        <p className="flex md:gap-6 gap-3 italic">
+          Multiple Clients
           <span className="text-[#FB6E02]">|</span> Ongoing
         </p>
       ),

@@ -6,7 +6,7 @@ const ReferenceMain = () => {
   const RefDeets = [
     {
       name: "Tseyi Agharaye",
-      title: "Director, Bloom Digital Media Ltd",
+      title: "Director, Bloom Digital Media Ltd.",
       description: (
         <>
           {" "}

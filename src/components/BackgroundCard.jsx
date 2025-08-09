@@ -14,7 +14,7 @@ const BackgroundCard = ({ logo, brand, title, text, description }) => {
       <h1 className="lg:text-[30px] text-[22px] md:text-[24px] font-semibold">
         {title}
       </h1>
-      <p className="lg:text-[17px] text-[14px] md:text-[15px] font-extralight mb-3">
+      <p className="lg:text-[17px] text-[14px] md:text-[15px] font-extralight mb-3 italic">
         {text}
       </p>
       <p className="lg:text-[20px] text-[14px] md:text-[17px] font-light">

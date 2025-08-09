@@ -26,17 +26,18 @@ const Homemain = () => {
   return (
     <section className="flex flex-col bg-[#131313] lg:px-20 px-10 pt-5 w-full h-full mt-20 mb-10 font-glancyr">
       <Scroll />
-      <p className="text-[#fff] lg:text-[26px] text-[20px] md:text-[24px] font-medium lg:mb-4 pr-0 md:pr-10 lg:pr-60 mb-10">
-        Hey there! I’m Emmanuel,
-        <span className="font-medium">
+      <p className="text-[#fff] lg:text-[26px] text-[20px] md:text-[24px] font-medium lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide">
+        Hey there! I’m Emmanuel,{" "}
+        <span className="font-semibold italic">
+          {" "}
           a Creative Designer who loves helping Founders, Start-ups, and Brands
         </span>{" "}
-        turn their ideas
-        <span className="font-medium"> into designs that work.</span>
+        turn their ideas{" "}
+        <span className="font-semibold italic">into designs that work</span>.
       </p>
 
-      <h3 className="text-[#fff] lg:text-[26px] text-[20px] md:text-[24px] font-light mb-10">
-        I’ve had the privilege of working with these great brands.
+      <h3 className="text-[#fff] lg:text-[22px] text-[18px] md:text-[20px] font-extralight mb-10">
+        I’ve had the privilege of working with these <br /> great brands.
       </h3>
 
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mb-10">

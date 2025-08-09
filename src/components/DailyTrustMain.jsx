@@ -51,10 +51,10 @@ const DailyTrustMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Daily Trust
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Design and Infographics
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Media Trust
             <span className="px-2 text-[#FB6E02]">|</span> 2024
           </p>
@@ -64,7 +64,7 @@ const DailyTrustMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Project Contributors
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Emmanuel Olugbemi
           </p>
         </div>

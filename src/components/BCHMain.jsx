@@ -19,10 +19,10 @@ const BCHMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Bloom Creative Hub
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Branding & Flyer Designs
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Bloom Digital Media
             <span className="px-2 text-[#FB6E02]">|</span> 2025
           </p>
@@ -32,10 +32,10 @@ const BCHMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Project Contributors
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Emmanuel Olugbemi
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Joshua Ocheje
           </p>
         </div>
@@ -86,23 +86,23 @@ const BCHMain = () => {
       </div>
 
       <div className="flex lg:flex-row flex-col w-full lg:h-[598px] h-auto gap-10 mb-10">
-        <div className="flex flex-col lg:w-[20%] w-full h-auto lg:h-[598px] object-cover space-y-5">
+        <div className="flex flex-col lg:w-[20%] w-full h-auto lg:h-[598px] space-y-5">
           <a href="">
             <img
               src={Cap3}
               alt="image of a red branded cap"
-              className="w-full h-[199px] object-fit"
+              className="w-full h-[199px] lg:object-cover object-fit"
             />
           </a>
           <img
             src={Cap2}
             alt="image of a white branded cap"
-            className="w-full h-[199px] object-fit"
+            className="w-full h-[199px] object-cover"
           />
           <img
             src={Cap1}
             alt="image of a black branded cap"
-            className="w-full h-[199px] object-fit"
+            className="w-full h-[199px] lg:object-cover object-fit"
           />
         </div>
 

@@ -26,10 +26,10 @@ const DesignedToDreamMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Designed To Dream
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Book Design
           </p>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Mary Adegunloye
             <span className="px-2 text-[#FB6E02]">|</span> 2023
           </p>
@@ -39,7 +39,7 @@ const DesignedToDreamMain = () => {
           <h1 className="lg:text-[32px] text-[20px] md:text-[26px] font-medium lg:mb-4 mb-2">
             Project Contributors
           </h1>
-          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight">
+          <p className="lg:text-[16px] md:text-[15px] text-[14px] font-extralight italic">
             Emmanuel Olugbemi
           </p>
         </div>
@@ -67,20 +67,9 @@ const DesignedToDreamMain = () => {
       </div>
 
       <div className="flex flex-col w-full h-full gap-5 mb-20">
-        <img src={First} alt="Book cover" className="w-full h-auto" />
+        <img src={First} alt="Book cover" className="w-full h-auto mb-5" />
 
-        <div className="grid md:grid-cols-2 grid-cols-1 mt-5 w-full h-auto gap-5 mb-5">
-          <img
-            src={Second}
-            alt="books"
-            className="w-full h-auto object-cover"
-          />
-          <img
-            src={Second}
-            alt="books"
-            className="w-full h-auto object-cover"
-          />
-        </div>
+        <img src={Second} alt="Books" className="w-full h-auto mb-5" />
 
         <img
           src={Hand}
