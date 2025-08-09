@@ -96,7 +96,7 @@ const ActConMain = () => {
         <img
           src={Mef}
           alt="Brand logo"
-          className="w-full h-auto object-cover rounded-[24px] md:rounded-4xl"
+          className="w-full h-auto object-cover rounded-[24px] md:rounded-[38px]"
         />
       </div>
 
