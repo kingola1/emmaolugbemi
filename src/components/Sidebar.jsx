@@ -67,8 +67,8 @@ const Sidebar = () => {
           </NavLink>
         </li>
 
-        <li className="font-bold flex items-center text-center text-sm lg:text-base bg-[#FB6E02] w-auto px-3 lg:px-5 py-2 rounded-xl ">
-          <a href="/" onClick={closeSidebar}>Work With Me</a>
+        <li className="font-medium text-center text-sm lg:text-base bg-[#FB6E02] w-auto px-3 lg:px-5 py-2 rounded-xl cursor-pointer">
+          <a href="mailto:kiitanolu@gmail.com" onClick={closeSidebar}>Work With Me</a>
         </li>
       </ul>
       </section>

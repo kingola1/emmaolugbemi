@@ -26,7 +26,7 @@ const Homemain = () => {
   return (
     <section className="flex flex-col bg-[#131313] lg:px-20 px-10 pt-5 w-full h-full mt-20 mb-10 font-glancyr">
       <Scroll />
-      <p className="text-[#fff] lg:text-[26px] text-[20px] md:text-[24px] font-medium lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide">
+      <p className="text-[#fff] lg:text-[26px] text-[20px] md:text-[24px] font-light lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide">
         Hey there! I’m Emmanuel,{" "}
         <span className="font-semibold italic">
           {" "}
@@ -53,7 +53,7 @@ const Homemain = () => {
 
       <div className="flex flex-col lg:flex-row w-full gap-[20px] h-auto mb-20">
         <div className="flex flex-col gap-10 lg:w-[50%] h-auto">
-          <p className="text-[#fff] lg:text-[17px] text-[14px] md:text-[15px] font-normal lg:mb-4 mb-2">
+          <p className="text-[#fff] lg:text-[17px] text-[14px] md:text-[15px] font-light lg:mb-4 mb-2">
             Here’s more about me. <br /> <br />I am a multidisciplinary Graphic
             Designer with over four years of experience crafting visual
             solutions across branding, UI/UX, motion graphics, digital and print
@@ -72,16 +72,16 @@ const Homemain = () => {
             manwhas, and webtoons.
           </p>
 
-          <div className="flex gap-10 lg:mt-20 mt-5 mb-5 lg:mb-0">
+          <div className="flex gap-10 lg:mt-10 mt-5 mb-5 lg:mb-0">
             <Link
               to="/background"
-              className="bg-[#FB6E02] text-white font-bold text-[14px] lg:px-10 px-5 py-2 rounded-lg text-center cursor-pointer"
+              className="bg-[#FB6E02] text-white font-medium text-[14px] lg:px-10 px-5 py-2 rounded-lg text-center cursor-pointer"
             >
               My Career So Far
             </Link>
             <button
               onClick={coffeeLink}
-              className="cursor-pointer bg-[#131313] border border-[#FB6E02] text-white font-bold text-[14px] lg:px-10 px-5 py-2 rounded-lg"
+              className="cursor-pointer bg-[#131313] border border-[#FB6E02] text-white font-medium text-[14px] lg:px-10 px-5 py-2 rounded-lg"
             >
               Buy me A Cup of Tea
             </button>
