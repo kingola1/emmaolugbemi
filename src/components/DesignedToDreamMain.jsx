@@ -7,7 +7,7 @@ import Shelf from "/shelf.jpg";
 import Hand from "/shelfhnd.jpg";
 import Closed from "/d2dclosed.jpg";
 import First from "/d2d1st.jpg";
-import Second from "/d2d2nd.jpg";
+import Second from "/d2d2nd.png";
 import Open from "/d2dopen.jpg";
 import Left from "/d2dleft.jpg";
 import Right from "/d2dright.jpg";
