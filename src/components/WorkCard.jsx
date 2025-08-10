@@ -39,5 +39,3 @@ const WorkCard = ({
   );
 };
 export default WorkCard;
-
-// flex lg:flex-row flex-col lg:h-[277px] items-center h-full w-full
