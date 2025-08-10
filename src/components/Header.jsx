@@ -14,7 +14,7 @@ const Header = () => {
     if (window.innerWidth < 768) {
       toggleSidebar();
     } else {
-      navigate(-1);
+      navigate("/");
     }
   };
 

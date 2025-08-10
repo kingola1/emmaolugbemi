@@ -15,7 +15,7 @@ const WorkCard = ({
   return (
     <section className="flex lg:flex-row flex-col w-full h-full font-glancyr">
       <div
-        className={`${bg} flex lg:w-[300px] lg:h-[277px] w-full md-h-[277px] h-[400px] justify-center items-center`}
+        className={`${bg} flex lg:w-[300px] lg:h-[277px] w-full md:h-[277px] h-[400px] justify-center items-center`}
       >
         <img
           src={logo}
@@ -24,19 +24,10 @@ const WorkCard = ({
         />
       </div>
 
-      {/* <div
-        className={`${bg} lg:w-[360px] w-full h-full justify-center border border-red-500`}
-      >
-        <img
-          src={logo}
-          alt="brand logo"
-          className={`${width} ${height} ${className} h-full`}
-        />
-      </div> */}
       <div className="flex w-full gap-10 text-[#fff] bg-[#252525] items-center">
-        <div className="flex flex-col gap-3 lg:pl-10 lg:px-0 md:px-10 px-5 lg:py-0 py-5">
+        <div className="flex flex-col gap-3 lg:pl-10 lg:px-0 md:px-10 px-5 lg:py-0 py-4">
           <h3 className="font-500 md:text-[30px] ">{title}</h3>
-          <p className="font-200 md:text-[16px]">{text}</p>
+          <p className="font-200 md:text-[16px] font-extralight">{text}</p>
           <p className="font-300 md:text-[20px]">{description}</p>
 
           <div className="flex text-[#FB6E02] mt-4">
