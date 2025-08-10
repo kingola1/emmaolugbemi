@@ -92,6 +92,7 @@ const DesignedToDreamMain = () => {
           src={Closed}
           alt="A hand holding the designed to dream book"
           className="w-full h-auto mb-5"
+          loading="lazy"
         />
         <img
           src={Open}
