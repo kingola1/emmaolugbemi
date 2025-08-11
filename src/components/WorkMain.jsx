@@ -3,13 +3,13 @@ import Footer from "../components/Footer";
 import Scroll from "../components/Scroll";
 import Act from "/ACTcon.jpg";
 import Desire from "/d2dream.jpg";
-import DailyTrust from "/dailyTrust.png";
+import DailyTrust from "/new_dt.png";
 import DreamGirl from "/Gdgirl.jpg";
 import LagosModel from "/LMUN.jpg";
 import Special from "/Special_yf.jpg";
 import Rites from "/last_rites.jpg";
 import Viano from "/V_iano.png";
-import Bloom from "/BCH.png";
+import Bloom from "/new_bhc.png";
 
 const WorkMain = () => {
   const Brands = [
@@ -27,8 +27,8 @@ const WorkMain = () => {
 
       link: "/bloomcreativehub",
       label: "View Project",
-      width: "lg:w-[200px] ",
-      height: "h-[70px] ",
+      width: "w-full",
+      height: "h-full",
       bg: "bg-[#000000]",
       className: "flex items-center px-5 w-full h-full",
     },
@@ -47,7 +47,7 @@ const WorkMain = () => {
 
       link: "/actcon",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
+      width: "w-full",
       height: "h-full",
       className: "Object-fit", 
     },
@@ -66,8 +66,8 @@ const WorkMain = () => {
         "The Special Foundation is a social impact organisation that focuses on raising young African leaders through education.",
       link: "/specialyf",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
-      height: "lg:h-[277px] h-full",
+      width: "w-full",
+      height: "h-full",
       className: "object-fit",
     },
 
@@ -84,8 +84,8 @@ const WorkMain = () => {
         "Viano is an automobile group of companies with a goal to create an all-in-one automotive luxury experience.",
       link: "/viano",
       label: "View Project",
-      width: "w-[400px]",
-      height: "h-[277px]",
+      width: "w-full",
+      height: "h-full",
       bg: "bg-[#000000]",
     },
 
@@ -102,8 +102,8 @@ const WorkMain = () => {
         "To God’s Dreamer Girl is a book that contains a number of love letters to a celebrant.",
       link: "/godsdreamgirl",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
-      height: "lg:h-[277px] h-full",
+      width: "w-full",
+      height: "h-full",
       className: "object-fit",
     },
 
@@ -121,8 +121,8 @@ const WorkMain = () => {
       link: "/dailytrust",
       label: "View Project",
       bg: "bg-[#fff]",
-      width: "w-[250px]",
-      height: "h-[50px]",
+      width: "w-full",
+      height: "h-full",
     },
 
     {
@@ -138,8 +138,8 @@ const WorkMain = () => {
         "The Lagos Model united Nations is a conference that simulates the United Nations, allowing students to serve as delegates of various Nations.",
       link: "/lmun",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
-      height: "lg:h-[277px] h-full",
+      width: "w-full",
+      height: "h-full",
       bg: "bg-[#fff]",
       className: "object-fit",
     },
@@ -157,8 +157,8 @@ const WorkMain = () => {
         "Designed to Dream is a book that serves as an invitation to the journey into God's heart and receive wisdom for birthingideas, innovations, dreams, and desires.",
       link: "/designedtodream",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
-      height: "lg:h-[277px] h-full",
+      width: "w-full",
+      height: "h-full",
       className: "object-fit md:object-none",
     },
 
@@ -175,8 +175,8 @@ const WorkMain = () => {
         "A compilation of my best photomanipulations, posters & flyers",
       link: "/photomanipulations",
       label: "View Project",
-      width: "lg:w-[400px] w-full",
-      height: "lg:h-[277px] h-full",
+      width: "w-full",
+      height: "h-full",
       className: "object-fit md:object-cover",
     },
   ];
@@ -184,7 +184,7 @@ const WorkMain = () => {
     <section className="bg-[#131313] mt-20 lg:px-20 px-10 mb-10 font-glancyr">
       <Scroll />
 
-      <div className="grid grid-cols-1 gap-5 mb-20">
+      <div className="grid grid-cols-1 gap-5 mb-20 mt-10">
         {Brands.map((item, index) => (
           <WorkCard
             key={index}
