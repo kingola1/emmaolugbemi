@@ -7,12 +7,8 @@ const DesignedToDream = () => {
   return (
     <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Designed To Dream" />
-      <Header />
 
-      <div className="flex w-full">
-        <Sidebar />
-        <DesignedToDreamMain />
-      </div>
+      <DesignedToDreamMain />
     </section>
   );
 };

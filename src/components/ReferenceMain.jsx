@@ -1,3 +1,4 @@
+import Layout from "./Layout";
 import RefCard from "./RefCard";
 import Footer from "./Footer";
 import Scroll from "./Scroll";
@@ -76,7 +77,7 @@ const ReferenceMain = () => {
           professional guidance when needed. <br /> <br />
           The results speak for themselves. Both projects were delivered on time
           and exceeded expectations, leaving me and other stakeholders
-          impressed. \n\nIf you're looking for a skilled, reliable, and creative
+          impressed. If you're looking for a skilled, reliable, and creative
           graphic/UI/UX designer who delivers outstanding results while making
           the process enjoyable, Emmanuel is your go-to professional. I look
           forward to the opportunity to work with him again in the future.”
@@ -97,7 +98,7 @@ const ReferenceMain = () => {
           What stood out to me was his reliability and commitment to meeting
           deadlines, as well as his beautiful and creative work. I highly
           recommend Emmanuel to any brand looking for a dedicated and driven
-          individual who can take their project to the next level. \n\nHe is a
+          individual who can take their project to the next level. He is a
           valuable asset to any team, and I have no doubt that he will continue
           to excel in his career.”
         </>
@@ -105,18 +106,22 @@ const ReferenceMain = () => {
     },
   ];
   return (
-    <section className="justify-center lg:space-y-14 space-y-12 bg-[#131313] lg:px-14 px-10 w-full h-full lg:mt-25 mt-28 mb-20 font-glancyr">
+    <Layout>
       <Scroll />
-      {RefDeets.map((item, index) => (
-        <RefCard
-          key={index}
-          name={item.name}
-          title={item.title}
-          description={item.description}
-        />
-      ))}
-      <Footer />
-    </section>
+      <section className="justify-center lg:space-y-10 space-y-12 bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full font-glancyr mb-10">
+        {RefDeets.map((item, index) => (
+          <RefCard
+            key={index}
+            name={item.name}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
+        <div className="mb-10">
+          <Footer />
+        </div>
+      </section>
+    </Layout>
   );
 };
 

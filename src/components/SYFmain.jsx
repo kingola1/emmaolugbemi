@@ -12,12 +12,13 @@ import DreamerGirl from "/Gdgirl.jpg";
 import DailyTrust from "/dailyTrust.png";
 import LMUN from "/LMUN.jpg";
 import Footer from "./Footer";
+// import Layout from "./Layout";
 import Scroll from "./Scroll";
 import { Link } from "react-router-dom";
 
 const SYFmain = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-25 mb-20">
+    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-26 mb-10">
       <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
         <div className="flex flex-col font-glancyr">

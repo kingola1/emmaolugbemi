@@ -7,10 +7,8 @@ const LMUN = () => {
   return (
     <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Lagos Model United Nations" />
-      <Header />
 
       <div className="flex w-full">
-        <Sidebar />
         <LMUNMain />
       </div>
     </section>

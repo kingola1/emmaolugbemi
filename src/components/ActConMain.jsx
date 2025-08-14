@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+// import Layout from "./Layout";
 import Scroll from "../components/Scroll";
 import Hero from "/actcon_hero.jpg";
 import Group from "/group.jpg";
@@ -21,7 +22,7 @@ import { Link } from "react-router-dom";
 
 const ActConMain = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full lg:pr-20 lg:justify-start not-first:justify-center px-10 mt-24 mb-10">
+    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start not-first:justify-center px-10 mt-26 mb-10">
       <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
         <div className="flex flex-col font-glancyr">

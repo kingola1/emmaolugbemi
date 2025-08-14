@@ -6,6 +6,7 @@ import Terra from "../assets/5th.svg";
 import Prestone from "../assets/6th.svg";
 import BackgroundCard from "./BackgroundCard";
 import Footer from "../components/Footer";
+import Layout from "./Layout";
 import Scroll from "../components/Scroll";
 
 const BackgroundMain = () => {
@@ -60,23 +61,26 @@ const BackgroundMain = () => {
     },
   ];
   return (
-    <section className="flex flex-col h-full w-full justify-start lg:px-14 px-10 mb-10 font-glancyr">
+    <Layout>
       <Scroll />
-      <div className="flex flex-col items-center justify-center lg:gap-14 gap-12 bg-[#131313]  w-full h-full lg:mt-25 mt-28 mb-20">
-        {backgroundData.map((item, index) => (
-          <BackgroundCard
-            key={index}
-            logo={item.logo}
-            brand={item.brand}
-            title={item.title}
-            text={item.text}
-            description={item.description}
-          />
-        ))}
-      </div>
-
-      <Footer />
-    </section>
+      <section className="flex flex-col h-full w-full justify-start lg:pr-20 lg:px-0 px-10 font-glancyr">
+        <div className="flex flex-col items-center justify-center lg:gap-14 gap-12 bg-[#131313] w-full h-full mb-20">
+          {backgroundData.map((item, index) => (
+            <BackgroundCard
+              key={index}
+              logo={item.logo}
+              brand={item.brand}
+              title={item.title}
+              text={item.text}
+              description={item.description}
+            />
+          ))}
+        </div>
+        <div className="mb-10">
+          <Footer />
+        </div>
+      </section>
+    </Layout>
   );
 };
 

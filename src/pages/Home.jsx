@@ -8,13 +8,8 @@ const Home = () => {
   return (
     <section className="flex flex-col w-full h-full bg-[#131313] font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Home" />
-      <Header />
 
-      <div className="flex w-full">
-        <Sidebar />
-
-        <Homemain />
-      </div>
+      <Homemain />
     </section>
   );
 };

@@ -7,10 +7,8 @@ const DailyTrust = () => {
   return (
     <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Daily Trust" />
-      <Header />
 
       <div className="flex w-full">
-        <Sidebar />
         <DailyTrustMain />
       </div>
     </section>

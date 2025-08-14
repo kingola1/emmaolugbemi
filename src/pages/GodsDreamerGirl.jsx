@@ -9,10 +9,7 @@ const GodsDreamerGirl = () => {
       <PageTitle title="Emmanuel Olugbemi | God's Dreamer Girl" />
       <Header />
 
-      <div className="flex w-full">
-        <Sidebar />
-        <DreamerGirlMain />
-      </div>
+      <DreamerGirlMain />
     </section>
   );
 };

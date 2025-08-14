@@ -8,12 +8,13 @@ import LMUN from "/LMUN.jpg";
 import Designed from "/d2dream.jpg";
 import Rites from "/last_rites.jpg";
 import Footer from "./Footer";
+// import Layout from "./Layout";
 import Scroll from "./Scroll";
 import { Link } from "react-router-dom";
 
 const GodsDreamergirlMain = () => {
   return (
-    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-28 mb-20">
+    <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mt-26 mb-10">
       <Scroll />
       <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
         <div className="flex flex-col font-glancyr">
@@ -118,7 +119,7 @@ const GodsDreamergirlMain = () => {
           </Link>
 
           <Link
-            to="/lastrites"
+            to="/photomanipulations"
             className="md:w-auto lg:h-auto md:h-[277px] w-full h-auto"
           >
             <img src={Rites} alt="brand logo" className="w-full h-full" />

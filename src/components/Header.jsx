@@ -12,9 +12,11 @@ const Header = () => {
 
   const handleMenuClick = () => {
     if (window.innerWidth < 768) {
+      // Small and medium screens: toggle sidebar
       toggleSidebar();
     } else {
-      navigate("/");
+      // Large screens: navigate back
+      navigate(-1);
     }
   };
 

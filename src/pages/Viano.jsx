@@ -10,7 +10,6 @@ const Viano = () => {
       <Header />
 
       <div className="flex w-full">
-        <Sidebar />
         <VianoMain />
       </div>
     </section>

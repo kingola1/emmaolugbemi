@@ -10,7 +10,6 @@ const SpecialYF = () => {
       <Header />
 
       <div className="flex w-full">
-        <Sidebar />
         <SYFmain />
       </div>
     </section>

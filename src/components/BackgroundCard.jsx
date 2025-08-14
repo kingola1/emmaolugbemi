@@ -1,7 +1,7 @@
 const BackgroundCard = ({ logo, brand, title, text, description }) => {
   return (
     <div className="flex flex-col justify-center items-start text-[#fff]">
-      <div className="bg-[#fff] rounded-full p-4 justify-center flex lg:mb-6 mb-4 font-glancyr w-auto h-auto">
+      <div className="bg-[#fff] rounded-full justify-center flex p-4 lg:mb-6 mb-4 font-glancyr w-auto h-auto">
         <img
           src={logo}
           alt="brand logo"

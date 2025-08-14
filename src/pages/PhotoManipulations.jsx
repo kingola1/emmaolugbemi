@@ -9,10 +9,7 @@ const PhotoManipulations = () => {
       <PageTitle title="Emmanuel Olugbemi | Photomanipulations" />
       <Header />
 
-      <div className="flex w-full">
-        <Sidebar />
-        <Photomain />
-      </div>
+      <Photomain />
     </section>
   );
 };

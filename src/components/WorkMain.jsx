@@ -1,5 +1,6 @@
 import WorkCard from "./WorkCard";
 import Footer from "../components/Footer";
+import Layout from "./Layout";
 import Scroll from "../components/Scroll";
 import Act from "/ACTcon.jpg";
 import Desire from "/d2dream.jpg";
@@ -49,7 +50,7 @@ const WorkMain = () => {
       label: "View Project",
       width: "w-full",
       height: "h-full",
-      className: "Object-fit", 
+      className: "Object-fit",
     },
 
     {
@@ -181,28 +182,30 @@ const WorkMain = () => {
     },
   ];
   return (
-    <section className="bg-[#131313] mt-20 lg:px-20 px-10 mb-10 font-glancyr">
+    <Layout>
       <Scroll />
 
-      <div className="grid grid-cols-1 gap-5 mb-20 mt-10">
-        {Brands.map((item, index) => (
-          <WorkCard
-            key={index}
-            logo={item.logo}
-            title={item.title}
-            text={item.text}
-            description={item.description}
-            link={item.link}
-            label={item.label}
-            width={item.width}
-            height={item.height}
-            bg={item.bg}
-          />
-        ))}
-      </div>
+      <section className="bg-[#131313] lg:pr-20 lg:px-0 px-10 font-glancyr">
+        <div className="grid grid-cols-1 gap-5">
+          {Brands.map((item, index) => (
+            <WorkCard
+              key={index}
+              logo={item.logo}
+              title={item.title}
+              text={item.text}
+              description={item.description}
+              link={item.link}
+              label={item.label}
+              width={item.width}
+              height={item.height}
+              bg={item.bg}
+            />
+          ))}
+        </div>
 
-      <Footer />
-    </section>
+        <Footer />
+      </section>
+    </Layout>
   );
 };
 

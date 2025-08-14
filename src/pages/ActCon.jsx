@@ -10,7 +10,6 @@ const ActCon = () => {
       <Header />
 
       <div className="flex w-full">
-        <Sidebar />
         <ActConMain />
       </div>
     </section>

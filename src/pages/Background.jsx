@@ -7,13 +7,8 @@ const Background = () => {
   return (
     <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Background" />
-      <Header />
 
-      <aside className="flex">
-        <Sidebar />
-
-        <BackgroundMain />
-      </aside>
+      <BackgroundMain />
     </section>
   );
 };

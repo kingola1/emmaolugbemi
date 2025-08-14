@@ -7,11 +7,7 @@ const Work = () => {
     <section className="flex flex-col bg-[#131313] w-full h-full font-glancyr">
       <PageTitle title="Emmanuel Olugbemi | Work" />
 
-      <Header />
-
       <div className="flex w-full">
-        <Sidebar />
-
         <Workmain />
       </div>
     </section>
