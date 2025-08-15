@@ -71,7 +71,15 @@ const DesignedToDreamMain = () => {
         <div className="flex flex-col w-full h-full gap-5 mb-20">
           <img src={First} alt="Book cover" className="w-full h-auto mb-5" />
 
-          <img src={Second} alt="Books" className="w-full h-auto mb-5" />
+          <div className="grid md:grid-cols-2 grid-cols-1 w-full h-auto gap-5 mb-5">
+            <img src={Second} alt="Books" className="w-full h-auto mb-5" />
+
+            <img
+              src="/dyd.jpg"
+              alt="books"
+              className="w-full h-auto object-cover"
+            />
+          </div>
 
           <img
             src={Hand}

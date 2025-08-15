@@ -84,12 +84,12 @@ const Photomain = () => {
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 w-full h-auto gap-5 mb-20">
-          <img src={One} alt="image" />
-          <img src={Two} alt="image" />
-          <img src={Three} alt="image" />
-          <img src={Four} alt="image" />
-          <img src={Five} alt="image" />
-          <img src={Six} alt="image" />
+          <img src={One} alt="image" className="w-full h-auto object-cover" />
+          <img src={Two} alt="image" className="w-full h-auto object-cover" />
+          <img src={Three} alt="image" className="w-full h-auto object-cover" />
+          <img src={Four} alt="image" className="w-full h-auto object-cover" />
+          <img src={Five} alt="image" className="w-full h-auto object-cover" />
+          <img src={Six} alt="image" className="w-full h-auto object-cover" />
         </div>
 
         <div className="flex flex-col mb-20">
@@ -97,102 +97,486 @@ const Photomain = () => {
             Social Media Flyers
           </h1>
           <div className="grid lg:grid-cols-6 md:grid-col-4 grid-cols-3 gap-5">
-            <img src="/f1.png" alt="Social media flyer" />
-            <img src="/f2.png" alt="Social media flyer" />
-            <img src="/f3.png" alt="Social media flyer" />
-            <img src="/f4.png" alt="Social media flyer" />
-            <img src="/f5.png" alt="Social media flyer" />
-            <img src="/f6.png" alt="Social media flyer" />
-            <img src="/f7.png" alt="Social media flyer" />
-            <img src="/f8.png" alt="Social media flyer" />
-            <img src="/f9.png" alt="Social media flyer" />
-            <img src="/f10.png" alt="Social media flyer" />
-            <img src="/f11.png" alt="Social media flyer" />
-            <img src="/f12.png" alt="Social media flyer" />
-            <img src="/f13.png" alt="Social media flyer" />
-            <img src="/f14.png" alt="Social media flyer" />
-            <img src="/f15.png" alt="Social media flyer" />
-            <img src="/f16.png" alt="Social media flyer" />
-            <img src="/f17.png" alt="Social media flyer" />
-            <img src="/f18.png" alt="Social media flyer" />
-            <img src="/f19.png" alt="Social media flyer" />
-            <img src="/f20.png" alt="Social media flyer" />
-            <img src="/f21.png" alt="Social media flyer" />
-            <img src="/f22.png" alt="Social media flyer" />
-            <img src="/f23.png" alt="Social media flyer" />
-            <img src="/f24.png" alt="Social media flyer" />
-            <img src="/f25.png" alt="Social media flyer" />
-            <img src="/f26.png" alt="Social media flyer" />
-            <img src="/f27.png" alt="Social media flyer" />
-            <img src="/f27.png" alt="Social media flyer" />
-            <img src="/f29.png" alt="Social media flyer" />
-            <img src="/f30.png" alt="Social media flyer" />
-            <img src="/f31.png" alt="Social media flyer" />
-            <img src="/f32.png" alt="Social media flyer" />
-            <img src="/f33.png" alt="Social media flyer" />
-            <img src="/f34.png" alt="Social media flyer" />
-            <img src="/f35.png" alt="Social media flyer" />
-            <img src="/f36.png" alt="Social media flyer" />
-            <img src="/f37.png" alt="Social media flyer" />
-            <img src="/f38.png" alt="Social media flyer" />
-            <img src="/f39.png" alt="Social media flyer" />
-            <img src="/f40.png" alt="Social media flyer" />
-            <img src="/f41.png" alt="Social media flyer" />
-            <img src="/f42.png" alt="Social media flyer" />
-            <img src="/f43.png" alt="Social media flyer" />
-            <img src="/f44.png" alt="Social media flyer" />
-            <img src="/f45.png" alt="Social media flyer" />
-            <img src="/f46.png" alt="Social media flyer" />
-            <img src="/f47.png" alt="Social media flyer" />
-            <img src="/f48.png" alt="Social media flyer" />
-            <img src="/f49.png" alt="Social media flyer" />
-            <img src="/f50.png" alt="Social media flyer" />
-            <img src="/f51.png" alt="Social media flyer" />
-            <img src="/f52.png" alt="Social media flyer" />
-            <img src="/f53.png" alt="Social media flyer" />
-            <img src="/f54.png" alt="Social media flyer" />
-            <img src="/f55.png" alt="Social media flyer" />
-            <img src="/f56.png" alt="Social media flyer" />
-            <img src="/f57.png" alt="Social media flyer" />
-            <img src="/f58.png" alt="Social media flyer" />
-            <img src="/f59.png" alt="Social media flyer" />
-            <img src="/f60.png" alt="Social media flyer" />
-            <img src="/f61.png" alt="Social media flyer" />
-            <img src="/f62.png" alt="Social media flyer" />
-            <img src="/f63.png" alt="Social media flyer" />
-            <img src="/f64.png" alt="Social media flyer" />
-            <img src="/f65.png" alt="Social media flyer" />
-            <img src="/f66.png" alt="Social media flyer" />
-            <img src="/f67.png" alt="Social media flyer" />
-            <img src="/f68.png" alt="Social media flyer" />
-            <img src="/f69.png" alt="Social media flyer" />
-            <img src="/f70.png" alt="Social media flyer" />
-            <img src="/f71.png" alt="Social media flyer" />
-            <img src="/f72.png" alt="Social media flyer" />
-            <img src="/f73.png" alt="Social media flyer" />
-            <img src="/f74.png" alt="Social media flyer" />
-            <img src="/f75.png" alt="Social media flyer" />
-            <img src="/f76.png" alt="Social media flyer" />
-            <img src="/f77.png" alt="Social media flyer" />
-            <img src="/f78.png" alt="Social media flyer" />
-            <img src="/f79.png" alt="Social media flyer" />
-            <img src="/f80.png" alt="Social media flyer" />
-            <img src="/f81.png" alt="Social media flyer" />
-            <img src="/f82.png" alt="Social media flyer" />
-            <img src="/f83.png" alt="Social media flyer" />
-            <img src="/f84.png" alt="Social media flyer" />
-            <img src="/f85.png" alt="Social media flyer" />
-            <img src="/f86.png" alt="Social media flyer" />
-            <img src="/f87.png" alt="Social media flyer" />
-            <img src="/f88.png" alt="Social media flyer" />
-            <img src="/f89.png" alt="Social media flyer" />
-            <img src="/f90.png" alt="Social media flyer" />
-            <img src="/f91.png" alt="Social media flyer" />
-            <img src="/f92.png" alt="Social media flyer" />
-            <img src="/f93.png" alt="Social media flyer" />
-            <img src="/f94.png" alt="Social media flyer" />
-            <img src="/f95.png" alt="Social media flyer" />
-            <img src="/f96.png" alt="Social media flyer" />
+            <img
+              src="/f1.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f2.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f3.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f4.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f5.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f6.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f7.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f8.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f9.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f10.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f11.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f12.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f13.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f14.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f15.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f16.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f17.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f18.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f19.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f20.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f21.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f22.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f23.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f24.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f25.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f26.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f27.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f27.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f29.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f30.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f31.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f32.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f33.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f34.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f35.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f36.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f37.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f38.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f39.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f40.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f41.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f42.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f43.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f44.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f45.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f46.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f47.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f48.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f49.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f50.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f51.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f52.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f53.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f54.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f55.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f56.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f57.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f58.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f59.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f60.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f61.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f62.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f63.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f64.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f65.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f66.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f67.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f68.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f69.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f70.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f71.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f72.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f73.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f74.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f75.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f76.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f77.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f78.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f79.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f80.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f81.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f82.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f83.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f84.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f85.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f86.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f87.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f88.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f89.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f90.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f91.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f92.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f93.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f94.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f95.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/f96.png"
+              alt="Social media flyer"
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
 
@@ -219,19 +603,19 @@ const Photomain = () => {
             />
           </div>
 
-          <div className="flex lg:flex-row flex-col w-full gap-10 h-auto lg:h-[400px] mb-10">
-            <div className="lg:w-[70%] w-full h-full">
+          <div className="flex lg:flex-row flex-col w-full gap-10 h-auto lg:h-[520px] mb-10">
+            <div className="lg:w-[70%] w-full h-auto object-cover">
               <img
                 src="/Roll.jpg"
                 alt=""
-                className="w-full h-auto lg:h-full object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
             <div className="lg:w-[30%] w-full h-auto">
               <img
                 src="/roll30.jpg "
                 alt=""
-                className="w-full lg:h-full h-auto object-cover"
+                className="w-full lg:h-full h-full object-cover lg:object-fit"
               />
             </div>
           </div>
@@ -302,8 +686,16 @@ const Photomain = () => {
           <img src="/big.jpg" alt="" className="mb-5" />
 
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mb-5">
-            <img src="/d16.png" alt="brand flyer" />
-            <img src="/certi.png" alt="brand flyer" />
+            <img
+              src="/d16.png"
+              alt="brand flyer"
+              className="w-full h-auto object-cover"
+            />
+            <img
+              src="/certi.png"
+              alt="brand flyer"
+              className="w-full h-auto object-cover"
+            />
           </div>
 
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mb-5">

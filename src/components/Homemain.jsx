@@ -30,19 +30,19 @@ const Homemain = () => {
         <Scroll />
         <p className="text-[#fff] lg:text-[32px] text-[22px] md:text-[28px] lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide font-light">
           Hey there! I’m Emmanuel,{" "}
-          <span className="font-normal italic lg:text-[26px] text-[20px] md:text-[24px]">
+          <span className="font-normal italic lg:text-[32px] text-[22px] md:text-[28px]">
             {" "}
             a Creative Designer who loves helping Founders, Start-ups, and
             Brands
           </span>{" "}
           turn their ideas{" "}
-          <span className="font-normal italic lg:text-[26px] text-[20px] md:text-[24px]">
+          <span className="font-normal italic lg:text-[32px] text-[22px] md:text-[28px]">
             into designs that work
           </span>
           .
         </p>
 
-        <h3 className="text-[#fff] lg:text-[24px] text-[18px] md:text-[20px] font-extralight mb-10">
+        <h3 className="text-[#fff] lg:text-[20px] text-[16px] md:text-[18px] font-extralight mb-10">
           I’ve had the privilege of working with these <br /> great brands.
         </h3>
 
