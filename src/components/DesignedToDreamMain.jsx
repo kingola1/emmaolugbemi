@@ -6,7 +6,7 @@ import Special from "/Special_yf.jpg";
 import Shelf from "/shelf.jpg";
 import Hand from "/shelfhnd.jpg";
 import Closed from "/d2dclosed.jpg";
-// import First from "/d2d1st.jpg";
+import First from "/d2d1st.jpg";
 import Second from "/d2d2nd.png";
 import Open from "/d2dopen.jpg";
 import Left from "/d2dleft.jpg";
@@ -69,7 +69,7 @@ const DesignedToDreamMain = () => {
         </div>
 
         <div className="flex flex-col w-full h-full gap-5 mb-20">
-          {/* <img src={First} alt="Book cover" className="w-full h-auto mb-5" /> */}
+          <img src={First} alt="Book cover" className="w-full h-auto mb-5" />
 
           <img src={Second} alt="Books" className="w-full h-auto mb-5" />
 

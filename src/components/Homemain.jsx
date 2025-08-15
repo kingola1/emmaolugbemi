@@ -26,9 +26,9 @@ const Homemain = () => {
   };
   return (
     <Layout>
-      <section className="flex flex-col bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full mb-10 font-glancyr">
+      <section className="flex flex-col bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full font-glancyr">
         <Scroll />
-        <p className="text-[#fff] lg:text-[24px] text-[18px] md:text-[22px] lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide font-light">
+        <p className="text-[#fff] lg:text-[32px] text-[22px] md:text-[28px] lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide font-light">
           Hey there! I’m Emmanuel,{" "}
           <span className="font-normal italic lg:text-[26px] text-[20px] md:text-[24px]">
             {" "}
@@ -42,11 +42,11 @@ const Homemain = () => {
           .
         </p>
 
-        <h3 className="text-[#fff] lg:text-[18px] text-[16px] md:text-[20px] font-extralight mb-10">
+        <h3 className="text-[#fff] lg:text-[24px] text-[18px] md:text-[20px] font-extralight mb-10">
           I’ve had the privilege of working with these <br /> great brands.
         </h3>
 
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mb-10">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mb-14">
           {Logos.map((logo, index) => (
             <LogoCard
               key={index}
@@ -78,7 +78,7 @@ const Homemain = () => {
               reading mangas, manwhas, and webtoons.
             </p>
 
-            <div className="flex gap-10 lg:mt-10 mt-5 mb-5 lg:mb-0">
+            <div className="flex gap-10 lg:mt-20 mt-5 mb-5 lg:mb-0">
               <Link
                 to="/background"
                 className="bg-[#FB6E02] text-white font-medium text-[14px] lg:px-10 px-5 py-2 rounded-lg text-center cursor-pointer"
@@ -98,7 +98,7 @@ const Homemain = () => {
             <img
               src={Man}
               alt="Designer's portrait"
-              className="w-full lg:w-[80%] h-auto object-fill"
+              className="w-full lg:w-[80%] h-auto object-cover"
             />
           </div>
         </div>

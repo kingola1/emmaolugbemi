@@ -69,6 +69,8 @@ const Sidebar = () => {
           <li>
             <a
               href="mailto:kiitanolu@gmail.com"
+              target="blank"
+              rel="noopener noreferrer"
               onClick={closeSidebar}
               className="w-20 text-center text-sm lg:text-base bg-[#FB6E02] py-4 px-4 md:px-4 font-semibold rounded-xl cursor-pointer"
             >

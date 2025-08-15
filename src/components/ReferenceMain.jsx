@@ -108,7 +108,7 @@ const ReferenceMain = () => {
   return (
     <Layout>
       <Scroll />
-      <section className="justify-center lg:space-y-10 space-y-12 bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full font-glancyr mb-10">
+      <section className="justify-center lg:space-y-20 space-y-16 bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full font-glancyr">
         {RefDeets.map((item, index) => (
           <RefCard
             key={index}
@@ -117,9 +117,7 @@ const ReferenceMain = () => {
             description={item.description}
           />
         ))}
-        <div className="mb-10">
-          <Footer />
-        </div>
+        <Footer />
       </section>
     </Layout>
   );

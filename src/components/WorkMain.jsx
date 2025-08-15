@@ -101,7 +101,7 @@ const WorkMain = () => {
       ),
       description:
         "To God’s Dreamer Girl is a book that contains a number of love letters to a celebrant.",
-      link: "/godsdreamgirl",
+      link: "/godsdreamergirl",
       label: "View Project",
       width: "w-full",
       height: "h-full",
@@ -185,7 +185,7 @@ const WorkMain = () => {
     <Layout>
       <Scroll />
 
-      <section className="bg-[#131313] lg:pr-20 lg:px-0 px-10 font-glancyr">
+      <section className="bg-[#131313] lg:pr-20 lg:px-0 px-10 mb-20 font-glancyr">
         <div className="grid grid-cols-1 gap-5">
           {Brands.map((item, index) => (
             <WorkCard
@@ -202,9 +202,10 @@ const WorkMain = () => {
             />
           ))}
         </div>
-
-        <Footer />
       </section>
+      <div className="mb-10">
+        <Footer />
+      </div>
     </Layout>
   );
 };

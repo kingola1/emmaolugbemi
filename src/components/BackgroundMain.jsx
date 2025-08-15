@@ -76,9 +76,7 @@ const BackgroundMain = () => {
             />
           ))}
         </div>
-        <div className="mb-10">
-          <Footer />
-        </div>
+        <Footer />
       </section>
     </Layout>
   );

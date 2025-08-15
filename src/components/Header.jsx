@@ -15,8 +15,8 @@ const Header = () => {
       // Small and medium screens: toggle sidebar
       toggleSidebar();
     } else {
-      // Large screens: navigate back
-      navigate(-1);
+      // Large screens: navigate home
+      navigate("/");
     }
   };
 
@@ -32,24 +32,40 @@ const Header = () => {
       </div>
 
       <div className="flex gap-4 ">
-        <a href="mailto:kiitanolu@gmail.com">
+        <a
+          href="mailto:kiitanolu@gmail.com"
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <img src={EmailIcon} alt="Email Icon" className="w-[32px] h-auto" />
         </a>
-        <a href="https://www.linkedin.com/in/emmaolugbemi">
+        <a
+          href="https://www.linkedin.com/in/emmaolugbemi"
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={LinkedInIcon}
             alt=" Linkedin Icon"
             className="w-[32px] h-auto"
           />
         </a>
-        <a href="https://www.instagram.com/emmaolugbemi">
+        <a
+          href="https://www.instagram.com/emmaolugbemi"
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={InstagramIcon}
             alt=" Instagram Icon"
             className="w-[32px] h-auto"
           />
         </a>
-        <a href="https://x.com/EmmaOlugbemi">
+        <a
+          href="https://x.com/EmmaOlugbemi"
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <img src={XIcon} alt="X Icon" className="w-[32px] h-auto" />
         </a>
       </div>

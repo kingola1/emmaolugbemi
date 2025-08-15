@@ -31,7 +31,7 @@ import { Link } from "react-router-dom";
 const LMUNMain = () => {
   return (
     <Layout>
-      <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10 mb-10">
+      <section className="flex flex-col bg-[#131313] w-full lg:px-20 lg:justify-start justify-center px-10">
         <Scroll />
         <div className="flex md:flex-row flex-col lg:gap-32 md:gap-10 gap-5 text-[#fff] mb-[20px] ">
           <div className="flex flex-col font-glancyr">
