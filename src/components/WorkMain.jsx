@@ -44,7 +44,7 @@ const WorkMain = () => {
         </p>
       ),
       description:
-        "Africa Creative Tourism Conference (ACT Con) Jos 2025 is a conference in line with the mission of ACT to create a platform for tourism through creatives.",
+        "Africa Creative Tourism Conference (ACT Con) Jos 2025 is a conference to create a platform for tourism through creatives.",
 
       link: "/actcon",
       label: "View Project",
@@ -155,7 +155,7 @@ const WorkMain = () => {
         </p>
       ),
       description:
-        "Designed to Dream is a book that serves as an invitation to the journey into God's heart and receive wisdom for birthingideas, innovations, dreams, and desires.",
+        "Designed to Dream is a book that serves as an invitation to the journey into God's heart and receive wisdom.",
       link: "/designedtodream",
       label: "View Project",
       width: "w-full",

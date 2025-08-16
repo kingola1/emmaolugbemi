@@ -28,11 +28,11 @@ const Homemain = () => {
     <Layout>
       <section className="flex flex-col bg-[#131313] lg:pr-20 lg:px-0 px-10 w-full h-full font-glancyr">
         <Scroll />
-        <p className="text-[#fff] lg:text-[32px] text-[22px] md:text-[28px] lg:mb-10 pr-0 md:pr-10 lg:pr-96 mb-10 tracking-wide font-light">
+        <p className="text-[#fff] lg:text-[32px] text-[22px] md:text-[28px] lg:mb-10 pr-0 md:pr-10 lg:pr-20 xl:pr-80 2xl:pr-96 mb-10 tracking-wide font-light">
           Hey there! I’m Emmanuel,{" "}
           <span className="font-normal italic lg:text-[32px] text-[22px] md:text-[28px]">
             {" "}
-            a Creative Designer who loves helping Founders, Start-ups, and
+            a Creative Designer who loves helping Founders, Startups, and
             Brands
           </span>{" "}
           turn their ideas{" "}
